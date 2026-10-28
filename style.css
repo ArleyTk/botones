@@ -6,56 +6,155 @@
 .btn {
     font-family: sans-serif;
     border: none;
-    padding: 10px 20px 10px 20px;
-    border-radius: 10px
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #ddd;
 }
 
 .btn-primary {
     background-color: #1565c0;
-    color: #fff
+    color: #fff;
 }
 
 .btn-secondary {
     background-color: #D1D5DB;
-    color: #111827
+    color: #111827;
 }
 
 .btn-success {
     background-color: #16703C;
-    color: #fff
+    color: #fff;
 }
 
 .btn-danger {
     background-color: #B91C1C;
-    color: #fff
+    color: #fff;
 }
 
 .btn-warning {
     background-color: #FACC15;
-    color: #111827
+    color: #111827;
 }
 
 .btn-info {
     background-color: #67E8F9;
-    color: #111827
+    color: #111827;
 }
 
 .btn-dark {
     background-color: #1F2937;
-    color: #FFFFFF
+    color: #FFFFFF;
 }
 
 .btn-light {
     background-color: #F9FAFB;
     color: #111827;
-    border-color: #6B7280 solid;
+    border: #6B7280 solid;
 }
 
 .btn-text {
-    color: #1565C0
+    background-color: transparent;
+    color: #1565C0;
 }
 
 .btn-custom {
     background-color: #6D28D9;
-    color: #fff
+    color: #fff;
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: #1565C0 solid;
+    color: #1565C0;
+}
+
+.btn-border-thick {
+    border: 4px #111827 solid;
+}
+
+.btn-border-dashed {
+    border: 2px dashed #1565C0;
+    background-color: #1565C0;
+    color: #fff;
+}
+
+.btn-border-dotted {
+    border: 2px dotted #1565C0;
+    background-color: #1565C0;
+    color: #fff;
+}
+
+.btn-rounded {
+    border-radius: 10px;
+}
+
+.btn-pill {
+    border-radius: 100px;
+}
+
+.btn-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.btn-small {
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.btn-large {
+    padding: 15px 30px;
+    font-size: 18px;
+}
+
+.btn-full {
+    width: 100%;
+}
+
+.btn-uppercase {
+    text-transform: uppercase;
+}
+
+.btn-spaced {
+    letter-spacing: 2px;
+}
+
+.btn-bold {
+    font-weight: bold;
+}
+
+.btn-elegant {
+    font-family: serif;
+}
+
+.btn-underline {
+    text-decoration: underline;
+}
+
+.btn-shadow-soft {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn-shadow-strong {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.btn-shadow-color {
+    background-color: #1565C0;
+    color: #fff;
+    box-shadow: 0 4px 10px #1565C0;
+}
+
+.btn-relief {
+    background-color: #1565C0;
+    color: #fff;
+    box-shadow: inset 0 2px 3px rgba(255, 255, 255, 0.4), 0 4px 6px #111827;
+}
+
+.btn-text-glow {
+    background-color: #111827;
+    color: #fff;
+    text-shadow: 0 0 6px #67E8F9;
 }
